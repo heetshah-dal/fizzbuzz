@@ -4,5 +4,7 @@ def fizzBuzz(n=100):
             print('Fizz',end='')
         if i%5 == 0:
             print('Buzz',end='')
+        if not i%3 == 0 & not i%5 == 0:
+            print(int(i),end='')
         print('')
 fizzBuzz()
